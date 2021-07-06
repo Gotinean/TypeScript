@@ -1,10 +1,13 @@
 import React from "react";
 import { View, Text } from "react-native";
+ import Main from "./src/Components/Notepad";
 
 const App = () => {
   return(
     <View>
-      <Text>SomeText</Text>
+      <Main />
     </View>
   )
 }
+
+export default App;
